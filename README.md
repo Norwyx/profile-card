@@ -4,7 +4,7 @@ A responsive profile card. This page was built as a front-end project of [Fronte
 
 - [Page](https://norwyx.github.io/profile-card/) - Final result of the project
 
-![Stats Preview Card](./images/final-results.png)
+![Profile Card](./images/final-results.png)
 
 
 
