@@ -3,37 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Profile Card</title>
 </head>
 <body>
   <main class="container">
-    <div class="card-container">
+    <div class="top-bg">
+      <img src="./images/bg-pattern-top.svg" alt="A bubble illustration svg">
+    </div>
+    <div class="card">
       <div class="banner">
-        <img src="./images/bg-pattern-card.svg" alt="A banner pattern">
+        <img class="banner-img" src="./images/bg-pattern-card.svg" alt="A banner pattern">
       </div>
-      <div class="profile-pic">
-        <img src="./images/image-victor.jpg" alt="Victor Crest profile picture">
+      <div class="profile">
+        <img class="profile-img" src="./images/image-victor.jpg" alt="Victor Crest profile picture">
       </div>
       <div class="info">
         <div class="name">Victor Crest <span class="age">26</span></div>
         <div class="city">London</div>
       </div>
+
+      <hr>
+
       <div class="stats">
-        <div class="followers">
+        <div class="stats-component" id="followers">
           <div class="stats-number">80K</div> 
           <div class="stats-text">Followers</div>
         </div>
-        <div class="likes">
+        <div class="stats-component" id="likes">
           <div class="stats-number">803K</div> 
           <div class="stats-text">Likes</div>
         </div>
-        <div class="followers">
+        <div class="stats-component" id="followers">
           <div class="stats-number">1.4K</div> 
           <div class="stats-text">Photos</div>
         </div>
       </div>
+    </div>
+    <div class="bottom-bg">
+      <img src="./images/bg-pattern-bottom.svg" alt="A bubble illustration svg">
     </div>
   </main>
 </body>
