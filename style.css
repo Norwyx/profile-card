@@ -122,3 +122,22 @@ hr {
     letter-spacing: 2px;
     color: var(--dark-grayish-blue);
 }
+
+/* Mobile version */
+/* 375px mobile */
+@media only screen and (max-width: 23.4375rem) {
+    .card, .banner-img {
+        width: 20rem;
+    }   
+}
+
+/* 320px mobile */
+@media only screen and (max-width: 20rem) {
+    .card, .banner-img {
+        width: 18rem;
+    }  
+    
+    .card {
+        height: 22rem;
+    }
+}
